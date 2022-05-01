@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    column-gap: 2vw;
+    row-gap: 5vh;
+}
+*{
+    overflow-x: hidden;
+}
+img{
+    max-width: 30vw;
+    width: 100%;
+    border-radius: 5%; 
+}
